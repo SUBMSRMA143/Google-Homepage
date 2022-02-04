@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.whole-body {
+    height: 100vh;
+    /* background: linear-gradient(to top, rgba(0, 0, 0, 0.4)50%, transparent, rgba(0, 0, 0, 0.4)); */
+}
+
+
+/* -------navbar starts------- */
+
+.navbar ul li {
+    float: right;
+    display: flex;
+    /* overflow-y: hidden; */
+    margin: 10px;
+}
+
+.navbar ul li:hover {
+    cursor: pointer;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+}
+
+#gml,
+#i1 {
+    position: relative;
+    top: 17px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14p0;
+}
+
+.more-apps-dots {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 10px;
+}
+
+.gmail-profile {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.gmail-profile img {
+    border-radius: 50%;
+}
+
+
+/* ------navbar ends------ */
+
+
+/* -----main-heading starts----- */
+
+.main-heading {
+    text-align: center;
+    position: relative;
+    top: -60px;
+}
+
+.main-heading article p,
+button {
+    position: relative;
+    top: -10px;
+}
+
+.main-heading article p img {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 46px;
+    top: 10px;
+}
+
+.main-heading article h1 img {
+    /* font-size: 150px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 12px; */
+    width: 50%;
+    height: 100%;
+}
+
+#search {
+    width: 537px;
+    height: 45px;
+    border: 1px solid rgb(85, 85, 85);
+    border-radius: 123px;
+    padding-left: 50px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.s-btn,
+.l-btn {
+    border: none;
+    background-color: rgb(255, 218, 149);
+    height: 37px;
+    width: 142px;
+    margin-top: 14px;
+    margin-left: 20px;
+    border-radius: 7px;
+    font-size: 14px;
+    text-transform: capitalize;
+    padding: 2px;
+    transition: 0.3s ease-in-out;
+}
+
+.s-btn:hover,
+.l-btn:hover {
+    cursor: pointer;
+    background-color: rgb(249, 208, 48);
+}
+
+article ul {
+    display: inline;
+}
+
+article ul li {
+    display: inline;
+}
+
+article {
+    text-transform: capitalize;
+}
+
+article ul li a {
+    text-decoration: none;
+    margin-right: 10px;
+    position: relative;
+    left: 10px;
+    text-transform: capitalize;
+}
+
+
+/* ------main-heading ends----- */
+
+
+/* -------footer starts------ */
+
+.footer {
+    position: relative;
+    top: 52px;
+}
+
+footer ul li {
+    display: inline;
+    padding: 0 20px;
+    padding-left: 0px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.ul1,
+.ul2 {
+    float: left;
+}
+
+.ul2 {
+    float: right;
+}
+
+footer p {
+    height: 50px;
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+    border-bottom: 1px solid rgb(206, 177, 17);
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(255, 255, 116);
+}
+
+.footer-ul {
+    background-color: rgb(255, 255, 116);
+    border-top: 1px solid rgb(185, 165, 47);
+    height: 50px;
+    padding: 15px;
+    padding-left: 20px;
+    font-size: 17px;
+    text-transform: capitalize;
+}
