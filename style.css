@@ -9,6 +9,7 @@
 .whole-body {
     height: 100vh;
     /* background: linear-gradient(to top, rgba(0, 0, 0, 0.4)50%, transparent, rgba(0, 0, 0, 0.4)); */
+    background: linear-gradient(to top, rgb(116, 255, 2)10%, transparent, rgb(255, 153, 0)95%);
 }
 
 
@@ -65,7 +66,7 @@
 .main-heading {
     text-align: center;
     position: relative;
-    top: -60px;
+    top: 10px;
 }
 
 .main-heading article p,
@@ -151,6 +152,7 @@ article ul li a {
 .footer {
     position: relative;
     top: 52px;
+    /* background: linear-gradient(to top, rgb(116, 255, 2)30%, transparent, rgb(255, 153, 0)); */
 }
 
 footer ul li {
@@ -183,14 +185,14 @@ footer p {
     padding-left: 20px;
     font-size: 20px;
     text-transform: capitalize;
-    border-bottom: 1px solid rgb(206, 177, 17);
+    /* border-bottom: 1px solid rgb(206, 177, 17); */
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(255, 255, 116);
+    /* background: linear-gradient(to top, rgba(255, 166, 64), rgb(247, 247, 244)); */
 }
 
 .footer-ul {
-    background-color: rgb(255, 255, 116);
-    border-top: 1px solid rgb(185, 165, 47);
+    /* background: linear-gradient(to top, rgb(226, 226, 116), rgb(255, 166, 64)); */
+    /* border-top: 1px solid rgb(185, 165, 47); */
     height: 50px;
     padding: 15px;
     padding-left: 20px;
